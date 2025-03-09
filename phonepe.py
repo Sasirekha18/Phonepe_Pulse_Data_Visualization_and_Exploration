@@ -805,7 +805,7 @@ if select == "HOME":
     with col3:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(Image.open(r"C:\Users\sasim\Desktop\Phonepe\Download1.jpg"),height=1000)
+        st.image(Image.open(r"C:\Users\sasim\Desktop\Phonepe\Download1.jpg"))
 
     with col4:
         st.write("****Easy Transactions****")
@@ -838,7 +838,7 @@ if select == "HOME":
         st.write("****Instantly & Free****")
 
     with col6:
-        st.image(Image.open(r"C:\Users\sasim\Desktop\Phonepe\download3.jpg"),height=1000)
+        st.image(Image.open(r"C:\Users\sasim\Desktop\Phonepe\download3.jpg"))
 
     
 elif select == "DATA EXPLORATION":
