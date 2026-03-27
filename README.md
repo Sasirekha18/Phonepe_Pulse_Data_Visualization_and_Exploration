@@ -1,20 +1,125 @@
-Guvi_CAPSTON_Project_Phonepe-Pulse-Data-Visualization-and-Exploration
-The aim of this project is to develop a solution that extracts, transforms, and visualizes data from the Phonepe Pulse GitHub repository. The process involves:
+# 📊 PhonePe Pulse Data Analysis
+## 🚀 Project Overview
 
-Data Extraction: Scripting to clone the repository and collect data.
+This project focuses on data harvesting, data warehousing, and visualization using PhonePe Pulse data. It extracts real-world digital payment data, processes it, stores it in a database, and presents insights through an interactive dashboard.
 
-Data Transformation: Using Python and Pandas to clean and structure the data.
+## 📌 Features
+📥 Extract data from PhonePe Pulse (JSON format)
 
-Database Insertion: Storing transformed data in a POSTGRESQL database.
+🧹 Data cleaning and transformation using Pandas
 
-Dashboard Creation: Using Streamlit and Plotly to build an interactive dashboard.
+🗄 Store structured data in PostgreSQL
 
-Data Retrieval: Fetching data from the database to dynamically update the dashboard.
+📊 Interactive visualizations using Plotly
 
-NAME : SASI REKHA N M
+🌐 Dashboard built with Streamlit
 
-LinkedIn: https://www.linkedin.com/in/sasi-rekha-n-m-709157179/
+📍 State-wise and district-wise analysis
 
-BATCH: MDE91
+📅 Year and Quarter filtering
 
-DOMAIN : DATA SCIENCE
+## 🛠️ Technologies Used
+Python
+
+Pandas
+
+PostgreSQL
+
+psycopg2
+
+Streamlit
+
+Plotly
+
+JSON
+
+## 📂 Project Structure
+
+Phonepe/
+│
+├── pulse/                  # Raw JSON data
+├── phonepe.py             # Streamlit dashboard
+├── phonepeanalysis.ipynb  # Data processing notebook
+├── README.md
+└── requirements.txt
+
+## 🔄 Data Pipeline
+Extract JSON data from PhonePe Pulse
+
+Process and clean data using Python
+
+Convert into structured DataFrames
+
+Store data in PostgreSQL tables
+
+Query data for analysis
+
+Visualize using Streamlit dashboard
+
+## 🗄 Database Tables
+aggregated_transaction
+
+aggregated_user
+
+map_transaction
+
+map_user
+
+top_transaction
+
+top_user
+
+## 📊 Dashboard Features
+📌 Home Page
+
+📌 Data Exploration
+
+📌 Top Charts
+
+📌 State Selection
+
+📌 Quarter-wise Analysis
+
+📌 District-level Insights
+
+## 📈 Key Insights
+Digital payments show steady growth over years
+
+Top states contribute majority of transactions
+
+Urban districts have higher app usage
+
+Seasonal trends observed across quarters
+
+## ⚠️ Challenges Faced
+Handling nested JSON data
+
+Data cleaning and normalization
+
+Database connection errors
+
+Streamlit rendering issues
+
+## ✅ Solutions Implemented
+Used structured loops for JSON parsing
+
+Applied data transformation techniques
+
+Added error handling
+
+Optimized dashboard performance
+
+## 🔮 Future Enhancements
+Add predictive analytics
+
+Deploy dashboard to cloud
+
+Improve UI/UX design
+
+Real-time data integration
+
+
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub!
