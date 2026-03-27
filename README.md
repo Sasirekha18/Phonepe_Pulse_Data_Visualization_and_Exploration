@@ -118,7 +118,8 @@ Improve UI/UX design
 
 Real-time data integration
 
-👩‍💻 Author
+## 👩‍💻 Author
+
 Sasi Rekha N M
 
 LinkedIn : https://www.linkedin.com/in/sasi-rekha-n-m-709157179/
